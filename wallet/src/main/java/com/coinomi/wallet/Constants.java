@@ -167,6 +167,8 @@ public class Constants {
                                                     new ServerAddress("ccn-cce-2.coinomi.net", 5021)),
             new CoinAddress(MonacoinMain.get(),     new ServerAddress("mona-cce-1.coinomi.net", 5022),
                                                     new ServerAddress("mona-cce-2.coinomi.net", 5022)),
+        new CoinAddress(MonetaryUnitMain.get(),     new ServerAddress("181.214.148.6", 50001),
+                                                    new ServerAddress("181.214.148.6", 50001)),
             new CoinAddress(DigibyteMain.get(),     new ServerAddress("dgb-cce-1.coinomi.net", 5023),
                                                     new ServerAddress("dgb-cce-2.coinomi.net", 5023)),
             // 5024 primecoin
@@ -265,6 +267,7 @@ public class Constants {
         COINS_ICONS.put(CoinID.CLUBCOIN_MAIN.getCoinType(), R.drawable.clubcoin);
         COINS_ICONS.put(CoinID.RICHCOIN_MAIN.getCoinType(), R.drawable.richcoin);
         COINS_ICONS.put(CoinID.IXCOIN_MAIN.getCoinType(), R.drawable.ixcoin);
+        COINS_ICONS.put(CoinID.MONETARYUNIT_MAIN.getCoinType(), R.drawable.ixcoin);
 
         COINS_BLOCK_EXPLORERS = new HashMap<CoinType, String>();
         COINS_BLOCK_EXPLORERS.put(CoinID.BITCOIN_MAIN.getCoinType(), "https://blockchain.info/tx/%s");
@@ -340,6 +343,7 @@ public class Constants {
             JumbucksMain.get(),
             LitecoinMain.get(),
             MonacoinMain.get(),
+            MonetaryUnitMain.get(),
             NamecoinMain.get(),
             NeoscoinMain.get(),
             NovacoinMain.get(),
