@@ -267,7 +267,7 @@ public class Constants {
         COINS_ICONS.put(CoinID.CLUBCOIN_MAIN.getCoinType(), R.drawable.clubcoin);
         COINS_ICONS.put(CoinID.RICHCOIN_MAIN.getCoinType(), R.drawable.richcoin);
         COINS_ICONS.put(CoinID.IXCOIN_MAIN.getCoinType(), R.drawable.ixcoin);
-        COINS_ICONS.put(CoinID.MONETARYUNIT_MAIN.getCoinType(), R.drawable.ixcoin);
+        COINS_ICONS.put(CoinID.MONETARYUNIT_MAIN.getCoinType(), R.drawable.monetaryunit);
 
         COINS_BLOCK_EXPLORERS = new HashMap<CoinType, String>();
         COINS_BLOCK_EXPLORERS.put(CoinID.BITCOIN_MAIN.getCoinType(), "https://blockchain.info/tx/%s");
@@ -310,6 +310,7 @@ public class Constants {
         COINS_BLOCK_EXPLORERS.put(CoinID.EGULDEN_MAIN.getCoinType(), "https://chainz.cryptoid.info/efl/tx.dws?%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.RICHCOIN_MAIN.getCoinType(), "https://explorer.richcoin.us/transaction?transaction=%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.IXCOIN_MAIN.getCoinType(), "https://chainz.cryptoid.info/ixc/tx.dws?%s");
+        COINS_BLOCK_EXPLORERS.put(CoinID.MONETARYUNIT_MAIN.getCoinType(), "https://chainz.cryptoid.info/mue/tx.dws?%s");
     }
 
     public static final CoinType DEFAULT_COIN = BitcoinMain.get();
