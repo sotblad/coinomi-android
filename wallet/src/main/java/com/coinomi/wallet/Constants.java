@@ -28,6 +28,7 @@ import com.coinomi.core.coins.JumbucksMain;
 import com.coinomi.core.coins.LitecoinMain;
 import com.coinomi.core.coins.LitecoinTest;
 import com.coinomi.core.coins.MonacoinMain;
+import com.coinomi.core.coins.MonetaryUnitMain;
 import com.coinomi.core.coins.NamecoinMain;
 import com.coinomi.core.coins.NeoscoinMain;
 import com.coinomi.core.coins.NovacoinMain;
